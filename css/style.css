@@ -1,20 +1,13 @@
-/* Tu stylujemy warstwę prezentacyjną aplikacji
-kaskadowe arkusze stylów */
-
-/* General rules */
 body {
   margin: 0;
   padding: 0;
   font-size: 16;
-  /* homework czcionka ze strony google fonts */
 }
 
 img {
   max-width: 100%;
   height: auto;
 }
-
-/* container */
 
 #container {
   width: 1000px;
@@ -23,7 +16,6 @@ img {
   border-radius: 15px;
 }
 
-/* header */
 header {
   padding: 20px 15px;
   display: flex;
@@ -34,8 +26,7 @@ header {
 nav ul {
   list-style-type: none;
 }
-/* tworzenie selektora, czytamy od tyłu, 
-wpisujemy po kolei jak są zagniezdzone w sobie */
+
 nav ul li {
   display: inline-block;
 }
