@@ -1,0 +1,97 @@
+/* Tu stylujemy warstwę prezentacyjną aplikacji
+kaskadowe arkusze stylów */
+
+/* General rules */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16;
+  /* homework czcionka ze strony google fonts */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* container */
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
+  border: 2px dotted black;
+  border-radius: 15px;
+}
+
+/* header */
+header {
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+}
+/* tworzenie selektora, czytamy od tyłu, 
+wpisujemy po kolei jak są zagniezdzone w sobie */
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  font-size: 18px;
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: white;
+  background-color: black;
+}
+
+.slider img {
+  display: block;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  width: 70%;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+aside {
+  width: 30%;
+  background-color: green;
+  padding: 15px;
+}
+article img {
+  border: 3px solid red;
+}
+
+.widget {
+  margin-bottom: 40px;
+}
+
+.widget img {
+  margin: 0 5px 5px 0;
+  float: left;
+  border: 2px dashed blue;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  margin: 8px;
+}
+
+footer img {
+  height: 20px;
+  padding: 8px;
+}
