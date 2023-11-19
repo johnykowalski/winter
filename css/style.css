@@ -62,12 +62,7 @@ aside {
   background-color: rgb(93, 181, 93);
   padding: 15px;
 }
-aside p {
-  text-align: center;
-}
-article img {
-  border: 3px solid red;
-}
+
 
 .widget {
   margin-bottom: 50px;
@@ -88,6 +83,10 @@ footer {
 footer img {
   height: 20px;
   padding: 8px;
+}
+
+h1 {
+  text-align: center;
 }
 
 .logo {
